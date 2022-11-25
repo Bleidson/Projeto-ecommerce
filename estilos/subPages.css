@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(252, 212, 138), rgb(184, 89, 0));
+}
+
+header {
+    background-color: black;
+    height: 75px; 
+    width: 97.4vw;
+    
+    margin: auto;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+div#seachbar {
+    text-align: center;
+    
+    
+}
+
+#seachbar #barradepesquisa {
+    height: 4vh;
+    width: 40vw;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+#seachbar #submit {
+    height: 5vh;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: white;
+}
+main {
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    width: 83vw;
+    margin: auto;
+}
+
+div.produtos {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 13px;
+    height: 250px;
+    width: 200px; 
+    margin-top: 20px;
+    
+}
+
+div.produtos > img {
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+div.produtos > p:hover {
+    
+    text-decoration: underline;
+}
+
+.produtos > p {
+    background-color: orange;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+img {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
