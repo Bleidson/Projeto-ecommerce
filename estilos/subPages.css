@@ -13,16 +13,23 @@ body{
 header {
     background-color: black;
     height: 75px; 
-    width: 97.4vw;
-    
+    width: 98.6vw;
+    border: 2px solid orange;
     margin: auto;
+    
+    
 }
 
 header h1 {
+    background-color: orange;
+    width: 300px;
     color: white;
+    margin: auto;
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 3px;
+    border-radius: 7px;
+    
 }
 div#seachbar {
     text-align: center;
@@ -47,6 +54,7 @@ div#seachbar {
     color: white;
 }
 main {
+    
     background-color: rgb(24, 24, 24);
     padding: 20px;
     width: 83vw;
