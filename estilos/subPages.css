@@ -11,11 +11,11 @@ body{
 }
 
 header {
-    background-color: black;
-    height: 75px; 
+    background-color: rgb(0, 0, 0);
+    height: 100px; 
     width: 98.6vw;
     border: 2px solid orange;
-    margin: auto;
+    
     
     
 }
@@ -25,10 +25,12 @@ header h1 {
     width: 300px;
     color: white;
     margin: auto;
+    padding: 5px;
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 3px;
-    border-radius: 7px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 7px 7px;
+    
     
 }
 div#seachbar {
@@ -38,7 +40,7 @@ div#seachbar {
 }
 
 #seachbar #barradepesquisa {
-    height: 4vh;
+    height: 30px;
     width: 40vw;
     padding-left: 10px;
     margin-bottom: 10px;
@@ -47,7 +49,7 @@ div#seachbar {
 }
 
 #seachbar #submit {
-    height: 5vh;
+    height: 35px;
     padding: 5px;
     border-radius: 5px;
     background-color: darkorange;
@@ -59,6 +61,8 @@ main {
     padding: 20px;
     width: 83vw;
     margin: auto;
+    border: 2px solid orange;
+    border-radius: 0px 0px 10px 10px;
 }
 
 div.produtos {
@@ -70,6 +74,7 @@ div.produtos {
     height: 250px;
     width: 200px; 
     margin-top: 20px;
+    margin: 15px;
     
 }
 

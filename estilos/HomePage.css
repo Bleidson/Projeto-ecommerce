@@ -15,6 +15,7 @@ header {
     background-color: black;
     height: 170px;
     padding: 20px;
+    border: 2px solid orange;
 }
 
 header img {
@@ -67,6 +68,8 @@ main {
     padding: 20px;
     width: 83vw;
     margin: auto;
+    border: 2px solid orange;
+    border-radius: 0px 0px 10px 10px;
 }
 
 div.produtos {
